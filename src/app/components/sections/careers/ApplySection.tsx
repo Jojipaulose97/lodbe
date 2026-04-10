@@ -6,7 +6,7 @@ export const ApplySection = () => {
           Ready to Build with Us?
         </h2>
         <p className="text-zinc-400 text-sm leading-relaxed">
-          Send your profile, portfolio, or GitHub to us. Include the role you're applying for,
+          Send your profile, portfolio, or GitHub to us. Include the role you&apos;re applying for,
           relevant work or portfolio, and a short note on why you want to join LODBE.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">

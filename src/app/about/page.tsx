@@ -1,5 +1,4 @@
-import { Navbar } from '../components/layout/Navbar';
-import { Footer } from '../components/layout/Footer';
+
 import { AboutHero } from '../components/sections/about/AboutHero';
 import { MissionVision } from '../components/sections/about/MissionVision';
 import { Philosophy } from '../components/sections/about/Philosophy';

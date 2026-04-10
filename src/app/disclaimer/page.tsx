@@ -19,19 +19,19 @@ export default function DisclaimerPage() {
                 <div className="space-y-12">
 
                     <section className="space-y-3">
-                        <Typography variant="h3">General Use of Services</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">General Use of Services</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             The information, services, software products, digital platforms, cloud storage solutions,
                             and business networking ecosystems provided by LODBE Private Limited are offered on an
-                            "as is" and "as available" basis. While LODBE makes reasonable efforts to ensure
+                            &quot;as is&quot; and &quot;as available&quot; basis. While LODBE makes reasonable efforts to ensure
                             accuracy, reliability, and availability, the Company does not guarantee that its services
                             will be uninterrupted, error-free, or free from defects.
                         </Typography>
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">No Guarantee of Outcomes</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">No Guarantee of Outcomes</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             LODBE does not guarantee any specific outcomes, including business success, revenue
                             generation, client acquisition, partnerships, or performance improvements resulting
                             from the use of its platforms or participation in its ecosystem.
@@ -39,8 +39,8 @@ export default function DisclaimerPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">Cloud Storage & Data</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">Cloud Storage & Data</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             Users are solely responsible for the content they upload and for maintaining appropriate
                             backups. While LODBE implements reasonable security measures, it does not guarantee
                             absolute data security or protection against data loss, unauthorized access, or
@@ -49,9 +49,9 @@ export default function DisclaimerPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">User Interactions & Ecosystem</Typography>
-                        <Typography variant="p">
-                            Any interactions, communications, or transactions between users within LODBE's networking
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">User Interactions & Ecosystem</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
+                            Any interactions, communications, or transactions between users within LODBE&apos;s networking
                             platforms are solely between the respective users. LODBE does not endorse, verify, or
                             guarantee the accuracy or quality of any user, service, or business listed on the
                             platform and shall not be held responsible for any disputes or damages arising from
@@ -60,8 +60,8 @@ export default function DisclaimerPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">Training & Educational Content</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">Training & Educational Content</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             Training programs, workshops, AI tools, and educational content provided by LODBE are
                             for informational and skill development purposes only. They do not constitute
                             professional, legal, financial, or academic advice. LODBE does not provide any
@@ -70,8 +70,8 @@ export default function DisclaimerPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">Payment Processing</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">Payment Processing</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             Payments may be processed through third-party providers such as Razorpay, Apple App
                             Store, or Google Play Store. LODBE is not responsible for payment processing errors,
                             delays, or disputes arising from third-party systems.
@@ -79,9 +79,9 @@ export default function DisclaimerPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">Limitation of Liability</Typography>
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">Limitation of Liability</Typography>
                         <div className="p-6 rounded-2xl bg-zinc-900 border border-zinc-800 space-y-2">
-                            <Typography variant="p">
+                            <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                                 LODBE shall not be liable for any direct, indirect, incidental, consequential,
                                 or special damages arising out of or in connection with the use of its services —
                                 including but not limited to loss of data, loss of profits, business interruption,
@@ -91,8 +91,8 @@ export default function DisclaimerPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">Compliance Responsibility</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">Compliance Responsibility</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             Users are responsible for ensuring that their use of LODBE services complies with
                             applicable laws and regulations in their respective jurisdictions. LODBE makes no
                             representations that its services are appropriate or compliant for use in all locations.
@@ -100,8 +100,8 @@ export default function DisclaimerPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">Right to Modify Services</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">Right to Modify Services</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             LODBE reserves the right to modify, suspend, or discontinue any part of its services
                             at any time without prior notice.
                         </Typography>

@@ -95,7 +95,7 @@ export const OpenRoles = () => {
             Open Roles
           </Typography>
           <p className="text-zinc-500 text-sm max-w-xl mx-auto">
-            We're hiring across product, engineering, design, and operations.
+            We&apos;re hiring across product, engineering, design, and operations.
           </p>
         </div>
 

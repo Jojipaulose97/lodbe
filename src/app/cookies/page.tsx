@@ -18,21 +18,21 @@ export default function CookiePage() {
 
                 <div className="space-y-10">
                     <section className="space-y-4">
-                        <Typography variant="h3">1. What are Cookies?</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">1. What are Cookies?</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             Cookies are small text files stored on your device (computer, mobile, or tablet) when you visit a website or use an application. These cookies help improve user experience, enable essential platform functionality, and provide insights into how our services are used.
                         </Typography>
                     </section>
 
                     <section className="space-y-4">
-                        <Typography variant="h3">2. How LODBE Uses Cookies</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">2. How LODBE Uses Cookies</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             LODBE uses cookies for various purposes, including enabling core functionality of the platform, managing user sessions, remembering user preferences, enhancing security, analyzing usage patterns, and improving performance.
                         </Typography>
                     </section>
 
                     <section className="space-y-4">
-                        <Typography variant="h3">3. Types of Cookies We Use</Typography>
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">3. Types of Cookies We Use</Typography>
                         <div className="space-y-4">
                             <div className="p-4 rounded-xl bg-zinc-900 border border-zinc-800">
                                 <span className="font-bold text-brand-yellow">Essential Cookies:</span> Necessary for the basic operation of our platforms.
@@ -47,15 +47,15 @@ export default function CookiePage() {
                     </section>
 
                     <section className="space-y-4">
-                        <Typography variant="h3">4. Third-Party Cookies</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">4. Third-Party Cookies</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             LODBE may use third-party services such as analytics providers to collect and analyze information. These third parties may use cookies to collect data such as IP address and device information in accordance with their own privacy policies.
                         </Typography>
                     </section>
 
                     <section className="space-y-4">
-                        <Typography variant="h3">5. Managing Your Preferences</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">5. Managing Your Preferences</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             Users have the ability to control or disable cookies through their browser or device settings. However, disabling certain cookies may affect the functionality and performance of LODBE services.
                         </Typography>
                     </section>

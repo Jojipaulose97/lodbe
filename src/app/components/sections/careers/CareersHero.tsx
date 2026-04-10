@@ -12,7 +12,7 @@ export const CareersHero = () => {
           <span className="text-zinc-400">Digital Business Ecosystems</span>
         </Typography>
         <Typography variant="p-muted" className="text-base sm:text-lg max-w-2xl mx-auto">
-          We're not a service agency — we design and own products that power how businesses
+          We&apos;re not a service agency — we design and own products that power how businesses
           and professionals connect, operate, and grow.
         </Typography>
         <div className="pt-2">

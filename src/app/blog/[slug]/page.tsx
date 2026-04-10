@@ -2,9 +2,10 @@ import { Typography } from '../../components/ui/Typography';
 import { BLOG_POSTS } from '../../constants/blog';
 import { notFound } from 'next/navigation';
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
+export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   // Find the post that matches the slug in the URL
-  const post = BLOG_POSTS.find((p) => p.slug === params.slug);
+  const { slug } = await params;
+  const post = BLOG_POSTS.find((p) => p.slug === slug);
 
   // If post is not found, show Next.js 404 page
   if (!post) notFound();
@@ -18,8 +19,6 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           <Typography variant="label">{post.category}</Typography>
           <Typography variant="h1">{post.title}</Typography>
           <div className="flex items-center gap-4 text-zinc-500">
-            <span className="text-sm font-medium">{post.date}</span>
-            <span className="w-1 h-1 rounded-full bg-zinc-700" />
             <span className="text-sm">5 min read</span>
           </div>
         </div>

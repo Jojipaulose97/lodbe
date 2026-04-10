@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Typography } from '../../../components/ui/Typography';
 
 interface BlogCardProps {
-  post: { slug: string; title: string; excerpt: string; category: string; date: string; image: string; };
+  post: { slug: string; title: string; excerpt: string; category: string; image: string; };
 }
 
 export const BlogCard = ({ post }: BlogCardProps) => {
@@ -30,7 +30,6 @@ export const BlogCard = ({ post }: BlogCardProps) => {
         <Typography variant="p-muted" className="line-clamp-2">
           {post.excerpt}
         </Typography>
-        <Typography variant="caption" className="block mt-4">{post.date}</Typography>
       </div>
     </Link>
   );

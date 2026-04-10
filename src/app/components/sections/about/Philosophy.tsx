@@ -11,7 +11,7 @@ export const Philosophy = () => {
           </p>
           <div className="p-6 rounded-2xl bg-zinc-900 border-l-4 border-yellow-400">
             <p className="italic text-gray-300">
-              "From intelligent software systems and automation tools to cloud-based solutions, we create infrastructure that enables growth at scale."
+              &quot;From intelligent software systems and automation tools to cloud-based solutions, we create infrastructure that enables growth at scale.&quot;
             </p>
           </div>
         </div>

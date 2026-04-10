@@ -1,6 +1,7 @@
 import { Typography } from '../components/ui/Typography';
 import { BlogCard } from '../components/sections/blog/BlogCard';
 import { BLOG_POSTS } from '../constants/blog';
+import { ScrollReveal } from '../components/ui/ScrollReveal';
 
 export default function BlogPage() {
   return (
@@ -17,8 +18,10 @@ export default function BlogPage() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-        {BLOG_POSTS.map((post) => (
-          <BlogCard key={post.slug} post={post} />
+        {BLOG_POSTS.map((post, idx) => (
+          <ScrollReveal key={post.slug} delay={idx * 0.1}>
+             <BlogCard post={post} />
+          </ScrollReveal>
         ))}
       </div>
     </main>

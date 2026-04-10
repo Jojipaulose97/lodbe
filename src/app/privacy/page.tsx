@@ -18,15 +18,15 @@ export default function PrivacyPage() {
 
                 <div className="space-y-10">
                     <section className="space-y-4">
-                        <Typography variant="h3">1. Overview</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">1. Overview</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             This Privacy Policy describes how LODBE Private Limited (“LODBE”, “Company”, “we”, “our”, or “us”) collects, uses, stores, processes, and protects personal and business information of users (“User”, “you”) who access or use our websites, mobile applications, SaaS platforms, cloud storage services, digital products, and business networking ecosystems.
                         </Typography>
                     </section>
 
                     <section className="space-y-4">
-                        <Typography variant="h3">2. Information Collection</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">2. Information Collection</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             LODBE collects information that you provide directly, including but not limited to your name, email address, phone number, business details, account credentials, profile information, and any content you upload or share on the platform.
                         </Typography>
                         <Typography variant="p-muted">
@@ -35,22 +35,22 @@ export default function PrivacyPage() {
                     </section>
 
                     <section className="space-y-4">
-                        <Typography variant="h3">3. Automatic Data Collection</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">3. Automatic Data Collection</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             We also collect information automatically such as device information, IP address, browser type, usage data, and interaction with our platforms to improve performance and user experience.
                         </Typography>
                     </section>
 
                     <section className="space-y-4">
-                        <Typography variant="h3">4. Use of Information</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">4. Use of Information</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             The information collected is used to provide, operate, and improve LODBE services, including user authentication, platform functionality, cloud storage operations, communication, customer support, personalization, security monitoring, analytics, and development of new features.
                         </Typography>
                     </section>
 
                     <section className="space-y-4">
-                        <Typography variant="h3">5. Data Sharing & Third Parties</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">5. Data Sharing & Third Parties</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             LODBE does not sell or rent your personal data to third parties. However, we may share information with trusted third-party service providers for the purpose of operating our services, including payment processing partners such as Razorpay, hosting providers, analytics services, and app distribution platforms such as Apple App Store and Google Play Store.
                         </Typography>
                     </section>

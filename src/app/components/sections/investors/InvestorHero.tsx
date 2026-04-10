@@ -1,5 +1,5 @@
 import { Typography } from '../../../components/ui/Typography';
-import { Button } from '../../../components/ui/Button'; // Assuming you have a Button component
+
 
 export const InvestorHero = () => {
     return (

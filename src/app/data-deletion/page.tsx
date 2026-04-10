@@ -19,8 +19,8 @@ export default function DataDeletionPage() {
                 <div className="space-y-10">
 
                     <section className="space-y-3">
-                        <Typography variant="h3">Overview</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">Overview</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             This Data Deletion Policy describes how users of LODBE Private Limited can
                             request deletion of their personal data and account information from our
                             platforms, including websites, mobile applications, SaaS products, cloud
@@ -29,8 +29,8 @@ export default function DataDeletionPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">Your Right to Deletion</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">Your Right to Deletion</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             Users have the right to request deletion of their personal data and account
                             at any time. Requests may be initiated through the account settings within
                             the LODBE platform or by contacting LODBE through the official support email.
@@ -40,15 +40,15 @@ export default function DataDeletionPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">What Gets Deleted</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">What Gets Deleted</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             When a user requests account deletion, LODBE will delete or anonymize personal
                             information such as name, email address, profile details, and account-related
                             data from active systems within a reasonable period — unless retention is
                             required for legal, regulatory, or legitimate business purposes.
                         </Typography>
                         <div className="p-5 rounded-2xl bg-zinc-900 border border-zinc-800">
-                            <Typography variant="p">
+                            <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                                 Certain information such as transaction records, billing data, or logs
                                 may be retained for compliance with applicable laws or for resolving
                                 disputes, even after an account deletion request.
@@ -57,9 +57,9 @@ export default function DataDeletionPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">Cloud Storage & User Files</Typography>
-                        <Typography variant="p">
-                            For users utilizing LODBE's cloud storage services, it is the user's
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">Cloud Storage & User Files</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
+                            For users utilizing LODBE&apos;s cloud storage services, it is the user&apos;s
                             responsibility to download or back up their data before initiating a deletion
                             request. Upon account deletion, all files, documents, and stored content
                             associated with the account may be permanently removed after a defined
@@ -68,8 +68,8 @@ export default function DataDeletionPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">Backup & Residual Data</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">Backup & Residual Data</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             LODBE may retain limited residual data in backup systems for a temporary
                             period to ensure system integrity, disaster recovery, and compliance with
                             legal obligations. Such data will be securely stored and automatically
@@ -78,8 +78,8 @@ export default function DataDeletionPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">Shared & Community Content</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">Shared & Community Content</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             In cases where users have participated in networking platforms, communities,
                             or shared content with other users, certain non-personal or anonymized data
                             may continue to exist within the platform to maintain system functionality
@@ -89,8 +89,8 @@ export default function DataDeletionPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">Active Subscriptions</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">Active Subscriptions</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             If a user has active subscriptions, memberships, or pending transactions,
                             LODBE may require such obligations to be completed or resolved before
                             processing the deletion request. Users are advised to cancel all active
@@ -99,9 +99,9 @@ export default function DataDeletionPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">Processing Timeframe</Typography>
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">Processing Timeframe</Typography>
                         <div className="p-5 rounded-2xl bg-zinc-900 border border-zinc-800">
-                            <Typography variant="p">
+                            <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                                 LODBE will process data deletion requests within a reasonable timeframe,
                                 typically within <span className="text-yellow-400 font-semibold">7 to 30 business days</span>,
                                 depending on the nature and scope of the request.
@@ -110,8 +110,8 @@ export default function DataDeletionPage() {
                     </section>
 
                     <section className="space-y-3">
-                        <Typography variant="h3">Right to Reject or Delay</Typography>
-                        <Typography variant="p">
+                        <Typography variant="h3" className="text-sm md:text-base text-zinc-300 font-semibold tracking-wide">Right to Reject or Delay</Typography>
+                        <Typography variant="p" className="text-[13px] md:text-sm leading-relaxed text-zinc-400">
                             LODBE reserves the right to reject or delay deletion requests that cannot
                             be verified or that conflict with legal or regulatory requirements.
                         </Typography>

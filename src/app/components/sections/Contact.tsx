@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { Button } from "../ui/Button";
 import { Input } from "../ui/Input";
-import { MapPin, Mail } from "lucide-react"; // Import professional icons
 
 export const Contact = () => {
     const [status, setStatus] = useState<"idle" | "loading" | "success">("idle");
@@ -22,11 +21,11 @@ export const Contact = () => {
                 <div className="space-y-8">
                     <div className="space-y-4">
                         <h2 className="text-4xl md:text-6xl font-bold tracking-tighter">
-                            Let's build the <br />
+                            Let&apos;s build the <br />
                             <span className="text-brand-yellow">future together.</span>
                         </h2>
                         <p className="text-zinc-400 text-lg max-w-md">
-                            Whether you're looking for a strategic partnership or have a question about our ecosystem, our team is ready to connect.
+                            Whether you&apos;re looking for a strategic partnership or have a question about our ecosystem, our team is ready to connect.
                         </p>
                     </div>
 

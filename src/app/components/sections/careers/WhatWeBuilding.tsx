@@ -14,7 +14,7 @@ export const WhatWeBuilding = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-4">
             <Typography variant="h2" className="text-3xl sm:text-4xl text-white">
-              What We're Building
+              What We&apos;re Building
             </Typography>
             <p className="text-zinc-400 text-sm leading-relaxed max-w-md">
               LODBE is building a suite of connected products designed for scale —

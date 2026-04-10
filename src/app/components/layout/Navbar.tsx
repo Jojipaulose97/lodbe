@@ -27,6 +27,7 @@ export const Navbar = () => {
                         height={50}
                         priority
                         className="object-contain"
+                        style={{ width: 'auto', height: 'auto' }}
                     />
                 </Link>
             </div>
@@ -55,7 +56,7 @@ export const Navbar = () => {
             <div className="md:hidden flex items-center">
                 <button
                     onClick={() => setIsOpen(!isOpen)}
-                    className="text-gray-600 hover:text-yellow-400 transition-colors"
+                    className="text-gray-400 hover:text-yellow-400 transition-colors"
                     aria-label="Toggle Menu"
                     aria-expanded={isOpen}
                     aria-controls="mobile-menu"
@@ -68,7 +69,7 @@ export const Navbar = () => {
             <div
                 id="mobile-menu"
                 className={`
-                    absolute top-full left-0 w-full bg-white border-b border-gray-100 z-50 md:hidden
+                    absolute top-full left-0 w-full bg-[#0a0a0a] border-b border-zinc-900 z-50 md:hidden
                     overflow-hidden transition-all duration-300 ease-in-out
                     ${isOpen ? 'max-h-96 opacity-100 pointer-events-auto' : 'max-h-0 opacity-0 pointer-events-none'}
                 `}
@@ -81,9 +82,9 @@ export const Navbar = () => {
                             onClick={() => setIsOpen(false)}
                             style={{ transitionDelay: isOpen ? `${i * 60}ms` : '0ms' }}
                             className={`
-                                text-gray-600 hover:text-gray-400
+                                text-gray-400 hover:text-yellow-400
                                 transition-all duration-200 text-lg font-medium
-                                border-b border-gray-100 py-3 last:border-none
+                                border-b border-zinc-900 py-3 last:border-none
                                 ${isOpen ? 'translate-x-0 opacity-100' : '-translate-x-3 opacity-0'}
                             `}
                         >

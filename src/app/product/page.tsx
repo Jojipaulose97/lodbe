@@ -1,4 +1,5 @@
 import { Typography } from '../components/ui/Typography';
+import { ScrollReveal } from '../components/ui/ScrollReveal';
 
 const products = [
     {
@@ -67,7 +68,7 @@ export default function ProductPage() {
                 {/* Section Header */}
                 <div className="px-6 max-w-7xl mx-auto mb-12 space-y-3">
                     <span className="inline-block text-xs font-semibold tracking-widest uppercase text-zinc-400 border border-zinc-200 rounded-full px-4 py-1.5">
-                        What We're Building
+                        What We&apos;re Building
                     </span>
                     <Typography variant="h2" className="text-3xl sm:text-4xl">
                         Products That Power the Ecosystem
@@ -85,6 +86,7 @@ export default function ProductPage() {
                             key={product.number}
                             className={`w-full px-6 py-14 ${product.dark ? 'bg-zinc-900' : 'bg-white'}`}
                         >
+                            <ScrollReveal delay={0.1}>
                             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
 
                                 {/* Left */}
@@ -120,6 +122,7 @@ export default function ProductPage() {
                                 </ul>
 
                             </div>
+                            </ScrollReveal>
                         </div>
                     ))}
                 </div>

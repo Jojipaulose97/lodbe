@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     // 3. Apply the Inter variable to the html tag
-    <html lang="en" className={`${inter.variable}`}>
+    <html lang="en" className={`${inter.variable}`} data-scroll-behavior="smooth">
       <body className="font-sans antialiased">
         <Navbar />
         {children}

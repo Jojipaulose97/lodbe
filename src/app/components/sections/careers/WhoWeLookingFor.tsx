@@ -13,7 +13,7 @@ export const WhoWeLookingFor = () => {
         <section className="px-6 py-16 bg-zinc-50 w-full">
             <div className="max-w-7xl mx-auto text-center space-y-10">
                 <Typography variant="h2" className="text-3xl text-black sm:text-4xl">
-                    Who We're Looking For
+                    Who We&apos;re Looking For
                 </Typography>
                 <div className="flex flex-wrap justify-center gap-3 max-w-2xl mx-auto">
                     {traits.map((trait, i) => (
