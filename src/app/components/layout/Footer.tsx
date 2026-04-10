@@ -30,22 +30,38 @@ export const Footer = () => {
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-16">
 
                     {/* Brand Section */}
-                    <div className="col-span-2 space-y-4">
-                        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-                            <Image
-                                src="/images/lodbe.webp"
-                                alt="LODBE Logo"
-                                width={50} // Slightly larger for better visibility in footer
-                                height={50} 
-                                priority 
-                                className="object-contain"
-                            />
-                        </Link>
+                    <div className="col-span-2 space-y-1">
+                        {/* 1. Logo and Two-Line Brand Header */}
+                        <div className="flex items-center gap-4">
+                            <Link href="/" className="flex-shrink-0 hover:opacity-80 transition-opacity">
+                                <Image
+                                    src="/images/lodbe.webp"
+                                    alt="LODBE - Digital Business Ecosystem Platform"
+                                    width={50}
+                                    height={50}
+                                    priority
+                                    className="object-contain"
+                                />
+                            </Link>
 
-                        <Typography variant="p-muted" className="text-gray-600 max-w-xs text-sm">
-                            LODBE empowers teams to transform raw data into clear, compelling visuals — making insights easier to share, understand, and act on.
+                            {/* The "Two Lines" - Keep this strictly for Brand identity */}
+                            <div className="flex flex-col leading-tight">
+                                <span className="text-xl font-bold text-black tracking-tight">
+                                    LODBE
+                                </span>
+                                <Typography variant="p-muted" className="text-gray-600 max-w-xs text-sm leading-relaxed">
+                                    is a leading digital business
+                                </Typography>
+
+                            </div>
+                        </div>
+
+                        {/* 2. SEO Description Paragraph - Full, complete sentences here */}
+                        <Typography variant="p-muted" className="text-gray-600 max-w-xs text-sm leading-relaxed">
+                            <span className="text-black font-medium"> ecosystem platform</span> dedicated to scaling growth through an integrated <span className="text-black font-medium">SaaS ecosystem platform</span>, cutting-edge <span className="text-black font-medium">AI business tools</span>, and a professional <span className="text-black font-medium">business networking platform</span>.
                         </Typography>
 
+                        {/* 3. Social Icons */}
                         <div className="flex gap-4 text-gray-400">
                             <Link href="#" className="hover:text-black transition-colors">f</Link>
                             <Link href="#" className="hover:text-black transition-colors">t</Link>
@@ -53,6 +69,7 @@ export const Footer = () => {
                             <Link href="#" className="hover:text-black transition-colors">ig</Link>
                         </div>
                     </div>
+
 
                     {/* Dynamic Link Columns */}
                     {Object.entries(footerLinks).map(([category, links]) => (
@@ -73,20 +90,44 @@ export const Footer = () => {
                     ))}
                 </div>
 
+
+
                 {/* Bottom Bar */}
                 <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
                     <p>© 2026 LODBE. All rights reserved.</p>
 
-                    <div className="flex gap-6">
-                        {/* UPDATE: Connected to /privacy */}
-                        <Link href="/privacy" className="hover:text-black transition-colors">Privacy Policy</Link>
+                    <div className="flex flex-wrap gap-x-6 gap-y-2 justify-center md:justify-start text-gray-500 text-xs">
+                        {/* Terms & Conditions */}
+                        <Link href="/terms" className="hover:text-black transition-colors">
+                            Terms and Conditions
+                        </Link>
 
-                        {/* UPDATE: Connected to /terms */}
-                        <Link href="/terms" className="hover:text-black transition-colors">Terms of Service</Link>
+                        {/* Privacy Policy */}
+                        <Link href="/privacy" className="hover:text-black transition-colors">
+                            Privacy Policy
+                        </Link>
 
-                        {/* UPDATE: Connected to /cookies */}
-                        <Link href="/cookies" className="hover:text-black transition-colors">Cookie Policy</Link>
+                        {/* Disclaimer */}
+                        <Link href="/disclaimer" className="hover:text-black transition-colors">
+                            Disclaimer
+                        </Link>
+
+                        {/* Refund & Cancellation */}
+                        <Link href="/refund-policy" className="hover:text-black transition-colors">
+                            Refund & Cancellation Policy
+                        </Link>
+
+                        {/* Data Deletion */}
+                        <Link href="/data-deletion" className="hover:text-black transition-colors">
+                            Data Deletion Policy
+                        </Link>
+
+                        {/* Cookie Policy */}
+                        <Link href="/cookies" className="hover:text-black transition-colors">
+                            Cookie Policy
+                        </Link>
                     </div>
+
                 </div>
             </div>
         </footer>

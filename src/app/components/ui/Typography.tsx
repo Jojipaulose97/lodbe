@@ -16,7 +16,7 @@ type TypographyProps = {
 
 export const Typography = ({ children, className, variant }: TypographyProps) => {
     const styles = {
-        h1: "text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter leading-tight",
+        h1: "text-4xl md:text-6xl lg:text-6xl font-bold tracking-tighter leading-tight",
         h2: "text-3xl md:text-5xl font-bold tracking-tight leading-tight",
         h3: "text-xl md:text-2xl font-semibold tracking-tight",
         p: "text-base md:text-lg leading-relaxed text-zinc-300",
