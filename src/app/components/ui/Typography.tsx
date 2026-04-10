@@ -18,13 +18,12 @@ export const Typography = ({ children, className, variant }: TypographyProps) =>
     const styles = {
         h1: "text-4xl md:text-6xl lg:text-6xl font-bold tracking-tighter leading-tight",
         h2: "text-3xl md:text-5xl font-bold tracking-tight leading-tight",
-        h3: "text-xl md:text-2xl font-semibold tracking-tight",
-        p: "text-base md:text-lg leading-relaxed text-zinc-300",
-        'p-muted': "text-base md:text-lg leading-relaxed text-zinc-500",
+        h3: "text-lg md:text-xl font-semibold tracking-tight",        // was text-xl md:text-2xl
+        p: "text-sm md:text-base leading-relaxed text-zinc-300",      // was text-base md:text-lg
+        'p-muted': "text-sm md:text-base leading-relaxed text-zinc-500", // was text-base md:text-lg
         label: "text-sm font-medium tracking-wide uppercase text-brand-yellow",
         caption: "text-xs text-zinc-500 leading-normal",
-    };
-
+    };  
     // FIX: Explicitly type the mapping object as Record<string, ElementType>
     const componentMap: Record<string, ElementType> = {
         h1: 'h1',

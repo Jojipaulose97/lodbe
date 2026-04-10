@@ -21,8 +21,8 @@ export const WhyJoin = () => {
               key={item.title}
               className="border border-zinc-100 rounded-2xl p-6 space-y-2 hover:border-zinc-300 hover:shadow-sm transition-all"
             >
-              <div className="w-2 h-2 rounded-full bg-zinc-900" />
-              <p className="font-semibold text-zinc-900 text-sm">{item.title}</p>
+              <div className="w-2 h-2 rounded-full bg-zinc-700" />
+              <p className="font-semibold text-zinc-300 text-sm">{item.title}</p>
               <p className="text-zinc-500 text-sm leading-relaxed">{item.desc}</p>
             </div>
           ))}

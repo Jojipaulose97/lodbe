@@ -32,7 +32,7 @@ export const Contact = () => {
 
                     <div className="space-y-6">
                         {/* Email Section - Using Lucide Mail Icon */}
-                        <div className="flex items-start gap-4 group">
+                        {/* <div className="flex items-start gap-4 group">
                             <div className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center text-brand-yellow group-hover:bg-zinc-700 transition-colors">
                                 <Mail size={20} strokeWidth={2} />
                             </div>
@@ -40,10 +40,10 @@ export const Contact = () => {
                                 <h4 className="font-semibold">Email us</h4>
                                 <p className="text-zinc-400">corporate@lodbe.com</p>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* Address Section - Using Lucide MapPin Icon */}
-                        <div className="flex items-start gap-4 group">
+                        {/* <div className="flex items-start gap-4 group">
                             <div className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center text-brand-yellow group-hover:bg-zinc-700 transition-colors">
                                 <MapPin size={20} strokeWidth={2} />
                             </div>
@@ -55,7 +55,7 @@ export const Contact = () => {
                                     Kerala – 690514, India
                                 </p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 

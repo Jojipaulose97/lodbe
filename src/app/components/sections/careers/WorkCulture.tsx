@@ -20,7 +20,7 @@ export const WorkCulture = () => {
               <div className="w-8 h-8 rounded-full bg-yellow-400 flex items-center justify-center text-zinc-900 font-bold text-sm">
                 {i + 1}
               </div>
-              <p className="font-semibold text-zinc-900 text-sm">{item.label}</p>
+              <p className="font-semibold text-zinc-300 text-sm">{item.label}</p>
               <p className="text-zinc-500 text-sm leading-relaxed">{item.desc}</p>
             </div>
           ))}

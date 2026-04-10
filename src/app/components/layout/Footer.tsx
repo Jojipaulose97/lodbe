@@ -19,7 +19,7 @@ const footerLinks = {
         { name: 'About', href: '/about' },
         { name: 'Investors', href: '/investors' },
         { name: 'Contact', href: '/contact' },
-        { name: 'Careers', href: '#' },
+        { name: 'Careers', href: '/careers' },
     ],
 };
 
@@ -113,7 +113,7 @@ export const Footer = () => {
                         </Link>
 
                         {/* Refund & Cancellation */}
-                        <Link href="/refund-policy" className="hover:text-black transition-colors">
+                        <Link href="/refund" className="hover:text-black transition-colors">
                             Refund & Cancellation Policy
                         </Link>
 

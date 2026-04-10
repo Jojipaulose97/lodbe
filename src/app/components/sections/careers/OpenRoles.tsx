@@ -106,7 +106,7 @@ export const OpenRoles = () => {
               {/* Header */}
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <h3 className="font-semibold text-zinc-900 text-base">{item.title}</h3>
+                  <h3 className="font-semibold text-zinc-300 text-base">{item.title}</h3>
                   <span className="text-xs text-zinc-400 font-medium">{item.team}</span>
                 </div>
                 <a href="mailto:careers@lodbe.com" className="shrink-0 text-xs font-medium bg-zinc-900 text-white px-4 py-1.5 rounded-full hover:bg-zinc-700 transition-colors">
