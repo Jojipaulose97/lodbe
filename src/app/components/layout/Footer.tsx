@@ -47,11 +47,7 @@ export const Footer = () => {
                             {/* The "Two Lines" - Keep this strictly for Brand identity */}
                             <div className="flex flex-col leading-tight">
                                 <span className="text-xl font-bold text-black tracking-tight">
-                                    <span className="text-rose-500">L</span>eaders{' '}
-                                    <span className="text-yellow-500">O</span>f{' '}
-                                    <span className="text-fuchsia-500">D</span>igital{' '}
-                                    <span className="text-green-500">B</span>usiness{' '}
-                                    <span className="text-blue-500">E</span>cosystem
+                                    Leaders Of Digital Business Ecosystem
                                 </span>
                                 <Typography variant="p-muted" className="text-gray-600 max-w-xs text-sm leading-relaxed">
                                     is a leading digital business

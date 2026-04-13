@@ -47,8 +47,10 @@ export const Navbar = () => {
 
             {/* Desktop Button */}
             <div className="hidden md:block">
-                <Button variant="outline" size="sm">
-                    Get Started
+                <Button variant="outline" size="sm" asChild>
+                    <Link href="/contact" className="cursor-pointer">
+                        Contact Us
+                    </Link>
                 </Button>
             </div>
 
@@ -92,9 +94,11 @@ export const Navbar = () => {
                         </Link>
                     ))}
                     <div className="pt-3">
-                        <Button variant="outline" size="sm" className="w-full py-6 text-base" onClick={() => setIsOpen(false)}>
-                            Get Started
-                        </Button>
+                        <Link href="/contact" onClick={() => setIsOpen(false)}>
+                            <Button variant="outline" size="sm" className="w-full py-6 text-base">
+                                Contact Us
+                            </Button>
+                        </Link>
                     </div>
                 </div>
             </div>

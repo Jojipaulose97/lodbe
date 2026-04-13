@@ -20,11 +20,11 @@ export const Hero = () => {
 
           <motion.div variants={fadeUpVariant}>
             <Typography variant="h1" className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight">
-            <span className="text-rose-500">L</span>eadership &amp; <span className="text-yellow-500">O</span>pportunity for{' '}
-            <br className="hidden sm:block" />
-            <span className="text-fuchsia-500">D</span><span className="text-zinc-500">igital</span>{' '}
-            <span className="text-green-500">B</span><span className="text-zinc-500">usiness</span>{' '}
-            <span className="text-blue-500">E</span><span className="text-zinc-500">cosystems</span>
+              Leadership &amp; Opportunity for{' '}
+              <br className="hidden sm:block" />
+              <span className="text-zinc-500">D</span><span className="text-zinc-500">igital</span>{' '}
+              <span className="text-zinc-500">B</span><span className="text-zinc-500">usiness</span>{' '}
+              <span className="text-zinc-500">E</span><span className="text-zinc-500">cosystems</span>
             </Typography>
           </motion.div>
 
